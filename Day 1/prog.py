@@ -20,7 +20,7 @@ with open("input") as f:
         ints.append(int(i))
 
 # sorting the numbers first, which will result in O(n * log(n)) complexity for the
-# first part, and O(n^2 * log(n)) for the second part
+# first part, and O(n^2) for the second part
 ints.sort()
 
 x, y = find_two_sum(2020, ints)
