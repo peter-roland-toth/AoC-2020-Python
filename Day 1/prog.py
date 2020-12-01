@@ -1,15 +1,10 @@
 def find_two_sum(s, arr):
-    # finds two numbers in `arr` whose sum equals to `s`, with O(n) complexity
-    lo = 0
-    hi = len(arr) - 1
-    while lo <= hi and arr[lo] + arr[hi] != s:
-        if arr[lo] + arr[hi] < s:
-            lo += 1
+    d = {}
+    for nr in arr:
+        if s-nr in d:
+            return nr, s-nr
         else:
-            hi -= 1
-
-    if arr[lo] + arr[hi] == s:
-        return arr[lo], arr[hi]
+            d[nr] = True
 
 
 ints = []
@@ -18,10 +13,6 @@ ints = []
 with open("input") as f:
     for i in f:
         ints.append(int(i))
-
-# sorting the numbers first, which will result in O(n * log(n)) complexity for the
-# first part, and O(n^2) for the second part
-ints.sort()
 
 x, y = find_two_sum(2020, ints)
 print("Part 1: ", x * y)
