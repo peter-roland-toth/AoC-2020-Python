@@ -6,3 +6,6 @@ Went for the brute force approach initially (_O(n^2)_ for the first part, _O(n^3
 
 ## Day 2
 Nothing special about this one, used a regex to parse the input and then counted each line that satisfied the rules.
+
+## Day 3
+Very simple puzzle, used modulo arithmetic to determine the "invisible" parts of the forest.
