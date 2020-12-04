@@ -9,3 +9,6 @@ Nothing special about this one, used a regex to parse the input and then counted
 
 ## Day 3
 Very simple puzzle, used modulo arithmetic to determine the "invisible" parts of the forest.
+
+## Day 4
+Used regexes again to validate some of the fields, however, I messed it up by using _r'[0-9]{9}'_ for the PID (without specifying where the pattern begins and ends), which marked a 10-digit PID as valid. I lost a lot of time debugging this.
