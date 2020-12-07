@@ -18,3 +18,6 @@ Nice and easy problem, solved the second part by iterating through the list of s
 
 ## Day 6
 Used `Counters` from the `collections` package for this, which resulted in a really short solution.
+
+## Day 7
+Some regex practice again to parse the input, then used `defaultdict` to store the trees defined by the dependencies. To make things easier, I used two trees for the two parts, in the first one if bag A contains bag B then B will be the parent of A, while in the second one A will be the parent of B.
