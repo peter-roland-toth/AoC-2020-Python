@@ -21,3 +21,6 @@ Used `Counters` from the `collections` package for this, which resulted in a rea
 
 ## Day 7
 Some regex practice again to parse the input, then used `defaultdict` to store the trees defined by the dependencies. To make things easier, I used two trees for the two parts, in the first one if bag A contains bag B then B will be the parent of A, while in the second one A will be the parent of B.
+
+## Day 8
+Classic Advent of Code problem involving CPU instructions. In the first part I was detecting an infinite loop by simply storing the visited instruction pointers in a dictionary. For the second part, probably there is a way to determine the instruction which needs to be changed without trial and error, but I was just brute-forcing it by creating and running a new instance of the program by changing each `jmp` to `nop` and vice versa.
