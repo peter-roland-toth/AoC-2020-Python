@@ -24,3 +24,6 @@ Some regex practice again to parse the input, then used `defaultdict` to store t
 
 ## Day 8
 Classic Advent of Code problem involving CPU instructions. In the first part I was detecting an infinite loop by simply storing the visited instruction pointers in a dictionary. For the second part, probably there is a way to determine the instruction which needs to be changed without trial and error, but I was just brute-forcing it by creating and running a new instance of the program by changing each `jmp` to `nop` and vice versa.
+
+## Day 9
+Used a dictionary similar to day 1 in order to reduce complexity to _O(n*k)_ from _O(n*k^2)_, where _n_ is the length of the input array and _k_ is the length of the window we need to check (25 in this case). Complexity for part 2 is _O(n^2)_ due to iterating through each number and start building a sum from there until there is a match.
