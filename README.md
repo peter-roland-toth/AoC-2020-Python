@@ -27,3 +27,6 @@ Classic Advent of Code problem involving CPU instructions. In the first part I w
 
 ## Day 9
 Used a dictionary similar to day 1 in order to reduce complexity to _O(n*k)_ from _O(n*k^2)_, where _n_ is the length of the input array and _k_ is the length of the window we need to check (25 in this case). Complexity for part 2 is _O(n^2)_ due to iterating through each number and start building a sum from there until there is a match.
+
+## Day 10
+Solved the second part using Dynamic Programming, by memorizing for each adapter in the chain, how many ways are to reach the end of the chain from there.
