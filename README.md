@@ -30,3 +30,6 @@ Used a dictionary similar to day 1 in order to reduce complexity to _O(n*k)_ fro
 
 ## Day 10
 Solved the second part using Dynamic Programming, by memorizing for each adapter in the chain, how many ways are to reach the end of the chain from there.
+
+## Day 12
+Used Python's built-in complex numbers to handle changes on the ship's position and direction. Moving can be achieved by adding another complex number, while turning can be done with multiplying by `j` (right) or `-1j` (left).
