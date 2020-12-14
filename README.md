@@ -33,3 +33,6 @@ Solved the second part using Dynamic Programming, by memorizing for each adapter
 
 ## Day 12
 Used Python's built-in complex numbers to handle changes on the ship's position and direction. Moving can be achieved by adding another complex number, while turning can be done with multiplying by `j` (right) or `-1j` (left).
+
+## Day 14
+An easy puzzle with a lot of bit manipulation involved. In the second part I used dynamic programming to generate all the possible memory addresses from the bit masks.
