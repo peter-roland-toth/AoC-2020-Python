@@ -36,3 +36,6 @@ Used Python's built-in complex numbers to handle changes on the ship's position 
 
 ## Day 14
 An easy puzzle with a lot of bit manipulation involved. In the second part I used dynamic programming to generate all the possible memory addresses from the bit masks.
+
+## Day 15
+Just used brute force for the second part as it does the job in under a minute.
