@@ -39,3 +39,6 @@ An easy puzzle with a lot of bit manipulation involved. In the second part I use
 
 ## Day 15
 Just used brute force for the second part as it does the job in under a minute.
+
+## Day 22
+Nice puzzle, especially the recursive part. Nothing special about the implementation though.
