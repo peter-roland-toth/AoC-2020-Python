@@ -47,3 +47,6 @@ Nice puzzle, especially the recursive part. Nothing special about the implementa
 My favorite day so far. Part 1 can be easily solved by using arrays, however the complexity is _O(n*m)_ (n being the length of the chain, m being the number of iterations), since in each iteration we have to find the destination cup, which is _O(n)_ complexity.
 
 This leads us to a better solution for part 2, where _O(n*m)_ would be terrible. Instead of an array, I used a linked list to store the chain, and a dictionary where I stored value -> node pairs. By using a linked list, moving nodes can be done in constant time, while the dictionary helps to locate the destination node also in constant time. This way the algorithm has _O(m)_ complexity, which is still not super fast but it runs in a couple of seconds.
+
+## Day 24
+Modelled the hex grid by adding -1 or +1 to the X and Y dimensions to get the NW, NE, SW or SE neighbor of a tile and adding -2 or +2 to the X dimension to get W or E. Then used dictionaries to store the tiles and to memorize the neighbors of each tile.
