@@ -50,3 +50,6 @@ This leads us to a better solution for part 2, where _O(n*m)_ would be terrible.
 
 ## Day 24
 Modelled the hex grid by adding -1 or +1 to the X and Y dimensions to get the NW, NE, SW or SE neighbor of a tile and adding -2 or +2 to the X dimension to get W or E. Then used dictionaries to store the tiles and to memorize the neighbors of each tile.
+
+## Day 25
+Nice and easy puzzle to end this edition of Advent of Code :)
